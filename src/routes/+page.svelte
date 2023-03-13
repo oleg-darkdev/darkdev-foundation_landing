@@ -61,12 +61,12 @@
 			fade: 'down'
 		},
 		{
-			title: 'Организовано локальных иннициатив',
+			title: 'Zorganizowane lokalne inicjatywy',
 			count: 7,
 			fade: 'up'
 		},
 		{
-			title: 'Поддержано НГО',
+			title: 'Wsparcie dla NGO',
 			count: 20,
 			fade: 'down'
 		}
