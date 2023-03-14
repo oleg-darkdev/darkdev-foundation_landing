@@ -46,6 +46,15 @@
 			logo: '/images/logos/44_cubes.svg',
 			link: 'https://44games.vercel.app/',
 			flip: 'left'
+		},
+		{
+			title: 'AgileKIT Community',
+			description: [
+				'Społeczność AgileKIT zaprasza praktyków wszystkich zawodów do wspólnej edukacji, rozrywki i rozwoju - zarówno poprzez spotkania wirtualne, jak i bezpośrednie.'
+			],
+			logo: '/images/logos/agileKit.svg',
+			link: 'https://agile-kit.vercel.app/',
+			flip: 'right'
 		}
 	];
 
@@ -74,7 +83,7 @@
 </script>
 
 <Header />
-<section class="banner-bg lg:hero md:hero xl:hero " />
+<section class="banner-bg md:hero lg:hero xl:hero " />
 
 <section class="cards-wrapper flex flex min-h-screen flex-col items-center bg-gray-900 ">
 	<div id="progects" class="flex w-full flex-col items-center pb-12 pt-12 pr-1 pl-1">
@@ -128,18 +137,16 @@
 		}
 		.banner-bg {
 			background-image: url(/images/banner_sm.svg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 370px;
-      background-position: center;
-
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 370px;
+			background-position: center;
 		}
 	}
 	@media (min-width: 560px) {
 		.banner-bg {
 			background-image: url(/images/banner.svg);
-      height: 100vh;
+			height: 100vh;
 		}
-
 	}
 </style>
