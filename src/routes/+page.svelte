@@ -8,6 +8,8 @@
 	import Coordinator from '../components/Coordinator.svelte';
 	import Carousel from '../components/Carousel.svelte';
 	import Gallery from '../components/Gallery.svelte';
+	import WorkshopImgLightCard from '../components/WorkshopImgLightCard.svelte';
+	import WorkshopImgDarkCard from '../components/WorkshopImgDarkCard.svelte';
 
 	import faqList from '../data/landingFaqList';
 
@@ -81,6 +83,124 @@
 			fade: 'down'
 		}
 	];
+
+	const boardgamesWorkshopsList = [
+		{
+			id: 0,
+			img: 'boardgame-mechanics.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'boardgame-design.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'boardgame-prototype.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'tech-site.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'tech-3d.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'tech-cnc.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		}
+	];
+
+	const itWorkshopsList = [
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		},
+		{
+			id: 0,
+			img: 'it-del.svg',
+			title: 'Lorem ipsum is placeholder',
+			desc: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.',
+			link: '/'
+		}
+	];
 </script>
 
 <Header />
@@ -113,24 +233,64 @@
 	<img src="/images/coordinator.svg" class="max-w-3xl border border-white rounded-lg" alt="" srcset="" />
 </section> -->
 
-<section class="flex flex-col items-center bg-gray-800 pt-12 pb-12">
+<!-- <section class="flex flex-col items-center bg-gray-800 pt-12 pb-12">
 	<Coordinator />
+</section> -->
+
+<section class="bg-gray-800 p-10">
+	<div class="flex w-full flex-col lg:flex-row">
+		<!-- bg-base-300 -->
+		<div class="card rounded-box grid h-auto w-6/12 flex-grow place-items-center bg-neutral-100">
+			<div class="">
+				<div id="workshops-" class="mb-6 text-center">
+					<h2 class="text-base font-semibold uppercase tracking-wide text-gray-700">
+						предлагаемые темы обучающих воркшопов
+					</h2>
+					<p
+						class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900  sm:text-4xl"
+					>
+						Для организаций
+					</p>
+				</div>
+
+				<div class="flex w-full flex-row flex-wrap justify-center">
+					{#each itWorkshopsList as workshop}
+						<WorkshopImgLightCard {workshop} />
+					{/each}
+				</div>
+			</div>
+		</div>
+		<div class="divider lg:divider-horizontal" />
+		<div class="card rounded-box grid h-auto w-6/12 flex-grow place-items-center bg-info">
+			<div id="workshops-" class="mb-6 text-center">
+				<h2 class="text-base font-semibold uppercase tracking-wide text-gray-700">
+					предлагаемые темы обучающих воркшопов
+				</h2>
+				<p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900  sm:text-4xl">
+					Для молодёжи
+				</p>
+			</div>
+
+			<div class="flex w-full flex-row flex-wrap justify-center">
+				{#each boardgamesWorkshopsList as workshop}
+					<WorkshopImgDarkCard {workshop} />
+				{/each}
+			</div>
+		</div>
+	</div>
 </section>
 
-
+<section class="bg-info pt-10" />
 
 <Gallery />
 
 <section
 	id="faq"
-	class="flex min-h-screen flex-row flex-wrap justify-center  bg-gray-900 p-4 pt-12 pb-12"
+	class="flex min-h-screen flex-col items-center justify-center bg-gray-900 p-4 pt-12 pb-12"
 >
 	<!-- <div class="flex max-w-2xl  rounded-lg border border-info"> -->
-	<img src="/images/faq.svg" class="m-1 h-full max-w-sm rounded-lg" alt="" srcset="" />
-	<div id="faq" class="flex flex-col">
-		<Faq {faqList} />
-	</div>
-	<!-- </div> -->
+	<!-- <img src="/images/faq.svg" class="m-1 h-full max-w-sm rounded-lg" alt="" srcset="" /> -->
+	<Faq {faqList} />
 </section>
 
 <Footer />

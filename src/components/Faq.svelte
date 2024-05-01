@@ -2,7 +2,6 @@
 	export let faqList;
 </script>
 
-<!-- 		-->
 {#each faqList as faq}
 	<div
 		data-aos="flip-down"
@@ -11,16 +10,16 @@
 		data-aos-once="false"
 		data-aos-mirror="true"
 		style=""
-		class="max-w-md bg-info "
+		class=" max-w-4xl w-full bg-info rounded-lg my-2 "
 	>
 		<p
-			class="max-w-md min-h-16 h-auto max-h-40"
+			class="w-full min-h-16 h-auto max-h-40 rounded-lg "
 			on:click={() => (faq.showText = !faq.showText)}
 			id="accordion-collapse-heading-1"
 		>
 			<button
 				type="button"
-				class="flex w-full items-center justify-between border border-b-0 border-gray-200 bg-info p-5 text-left  font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 "
+				class="flex  rounded-lg w-full items-center justify-between border border-b-0 border-gray-200 bg-info p-5 text-left  font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 "
 			>
 				<span>{faq.title} <i class="icon-question color-viol" /> </span>
 				<span><i class="{!faq.showText ? 'icon-arrow-down' : 'icon-arrow-up'} color-viol" /></span>
@@ -30,7 +29,7 @@
 		{#if faq.showText}
 			<div
 				id="accordion-collapse-body-1"
-				class="bg-white"
+				class="bg-white "
 				aria-labelledby="accordion-collapse-heading-1"
 			>
 				<div
