@@ -1,0 +1,138 @@
+<script>
+	export let workshop;
+</script>
+
+<figure class="snip1529 rounded-xl text-stone-900 transition duration-300 ease-in-out delay-150 transform hover:scale-110 hover:z-10">
+	<img src='/images/workshops/{workshop.img}' alt="img {workshop.title}" />
+	<div class="date">
+    <!-- <span class="day">28</span><span class="month">Apr</span> -->
+    <div class="">
+      <a href="{workshop.link}" target="_blank"><i class=" ion-android-open text-4xl" /></a>
+    </div>
+  </div>
+	<figcaption>
+		<h3>{workshop.title}</h3>
+		<p>{workshop.desc}</p>
+	</figcaption>
+	<div class="hover"><i class="ion-android-open" /></div>
+	<a href={workshop.link} />
+</figure>
+
+<style>
+	/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800); */
+	@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+	.snip1529 {
+		/* background-color: #000000; */
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+		/* color: #000; */
+		/* font-family: 'Open Sans', Arial, sa.ns-serif; */
+		font-size: 16px;
+		line-height: 1.6em;
+		margin: 10px;
+		max-width: 310px;
+		min-width: 250px;
+    height: 250px;
+		overflow: hidden;
+		position: relative;
+		text-align: left;
+		width: 100%;
+	}
+
+	.snip1529 * {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-transition: all 0.25s ease;
+		transition: all 0.25s ease;
+	}
+
+	.snip1529 img {
+		max-width: 100%;
+		vertical-align: top;
+		position: relative;
+		opacity: 0.90;
+	}
+
+	.snip1529 figcaption {
+		padding: 25px 20px 25px;
+		position: absolute;
+		bottom: 0;
+		z-index: 1;
+	}
+
+	.snip1529 .date {
+		background-color: #fff;
+		color: #333;
+		/* font-size: 18px;
+		font-weight: 800; */
+		min-height: 50px;
+		min-width: 50px;
+		padding: 10px 0;
+		position: absolute;
+		right: 15px;
+		text-align: center;
+		text-transform: uppercase;
+		top: 0;
+	}
+
+	.snip1529 .date span {
+		display: block;
+		line-height: 14px;
+	}
+
+	.snip1529 .date .month {
+		font-size: 11px;
+	}
+
+	.snip1529 h3,
+	.snip1529 p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.snip1529 h3 {
+		font-weight: 800;
+		letter-spacing: -0.4px;
+	}
+
+	.snip1529 .hover {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		align-items: center;
+		background-color: rgba(62, 150, 154, 0.65);
+		display: flex;
+		font-size: 65px;
+		justify-content: center;
+		opacity: 0;
+	}
+
+	.snip1529 a {
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.snip1529:hover .hover,
+	.snip1529.hover .hover {
+		-webkit-transition-delay: 0.1s;
+		transition-delay: 0.1s;
+		opacity: 1;
+	}
+
+	.snip1529:hover figcaption,
+	.snip1529.hover figcaption {
+		opacity: 0;
+	}
+
+	.snip1529:hover .date,
+	.snip1529.hover .date {
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%);
+	}
+
+</style>
