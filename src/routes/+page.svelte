@@ -7,6 +7,7 @@
 	import GoalsList from '../components/GoalsList.svelte';
 	import Coordinator from '../components/Coordinator.svelte';
 	import Carousel from '../components/Carousel.svelte';
+	import Gallery from '../components/Gallery.svelte';
 
 	import faqList from '../data/landingFaqList';
 
@@ -115,6 +116,10 @@
 <section class="flex flex-col items-center bg-gray-800 pt-12 pb-12">
 	<Coordinator />
 </section>
+
+
+
+<Gallery />
 
 <section
 	id="faq"
