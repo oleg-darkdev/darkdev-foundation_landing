@@ -3,7 +3,7 @@
 </script>
 
 <figure class="snip1529 rounded-xl text-stone-900 transition duration-300 ease-in-out delay-150 transform hover:scale-110 hover:z-10">
-	<img src='/images/workshops/{workshop.img}' alt="img {workshop.title}" />
+	<img src='/images/workshops/it-del.svg' alt="img {workshop.title}" />
 	<div class="date">
     <!-- <span class="day">28</span><span class="month">Apr</span> -->
     <div class="">
@@ -53,7 +53,7 @@
 	}
 
 	.snip1529 figcaption {
-		padding: 25px 20px 25px;
+		padding: 25px 20px 20px;
 		position: absolute;
 		bottom: 0;
 		z-index: 1;

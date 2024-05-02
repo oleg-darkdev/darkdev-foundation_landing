@@ -53,7 +53,7 @@
 	}
 
 	.snip1529 figcaption {
-		padding: 25px 20px 25px;
+		padding: 25px 20px 18px;
 		position: absolute;
 		bottom: 0;
 		z-index: 1;
