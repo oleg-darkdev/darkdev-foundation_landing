@@ -2,7 +2,7 @@
   	// import cardCategories from '../data/cardCategor/ies';
 </script>
 
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4 py-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4  px-4">
     <div class="grid gap-4">
         <div data-filter="image-hue-rotate">
             <img class="h-auto max-w-full rounded-lg" src="/images/gallery/1.JPG" alt="photo handmade fest magnets and tools">
