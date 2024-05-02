@@ -1,5 +1,7 @@
-<header>
-	<nav class="navbar fixed  z-10  flex w-full  bg-gray-900 px-2 py-2.5  text-gray-700  sm:px-4">
+<header class="flex justify-center">
+	<nav
+		class=" fixed  z-10  flex w-full max-w-2xl  rounded-b-xl bg-gray-900 px-2 py-2.5  text-gray-700  sm:px-4"
+	>
 		<div class=" dropdown md:hidden lg:hidden xl:hidden">
 			<label tabindex="0" class="btn-ghost btn-circle btn">
 				<svg
@@ -21,7 +23,7 @@
 				class="dropdown-content menu rounded-box menu-compact mt-3 w-64 bg-gray-900 p-2 shadow"
 			>
 				<li class="text-info"><a href="/#about">About</a></li>
-				<li class="text-info"><a href="/#progects">Progects</a></li>
+				<li class="text-info"><a href="/#projects">projects</a></li>
 				<li class="text-info"><a href="/#faq">F.A.Q</a></li>
 				<li class="text-info"><a href="/#contact">Contact</a></li>
 			</ul>
@@ -54,9 +56,9 @@
 					</li>
 					<li>
 						<a
-							href="/#progects"
+							href="/#projects"
 							class="block rounded py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white"
-							>Progects</a
+							>projects</a
 						>
 					</li>
 					<li>
