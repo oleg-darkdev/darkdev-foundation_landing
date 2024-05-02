@@ -15,11 +15,13 @@
 		"check:all": "yarn format && yarn lint"
 	},
 	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@fontsource/poppins": "^4.5.10",
+		"@inlang/sdk-js": "^0.6.3",
 		"@playwright-testing-library/test": "^4.5.0",
 		"@playwright/test": "^1.30.0",
 		"@poppanator/sveltekit-svg": "^3.0.1l",
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/adapter-vercel": "^5.3.0",
 		"@sveltejs/kit": "^1.5.3",
 		"@sveltejs/vite-plugin-svelte": "^2.0.2",
 		"@tailwindcss/typography": "^0.5.9",
@@ -52,12 +54,17 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-vercel": "^2.4.3",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/forms": "^0.5.4",
 		"@tailwindcss/typography": "^0.5.9",
 		"@tanstack/svelte-query": "^4.24.4",
+		"@threlte/core": "^6.0.0-next.7",
+		"@threlte/extras": "^5.0.0-next.13",
 		"aos": "^2.3.4",
+		"inlang": "^0.1.2",
 		"marked": "^5.1.2",
-		"tailwindcss": "^3.3.1"
+		"tailwindcss": "^3.3.1",
+		"three": "^0.152.2"
 	}
 }
