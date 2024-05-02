@@ -2,14 +2,14 @@
 	export let faqList;
 </script>
 
-{#each faqList as faq}
-	<div
-		data-aos="flip-down"
+<!-- 		data-aos="flip-down"
 		data-aos-delay="100"
 		data-aos-duration="1400"
 		data-aos-once="false"
 		data-aos-mirror="true"
-		style=""
+ -->
+{#each faqList as faq}
+	<div
 		class=" max-w-4xl w-full bg-info rounded-lg my-2 "
 	>
 		<p
