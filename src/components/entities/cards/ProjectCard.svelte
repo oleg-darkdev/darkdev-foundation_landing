@@ -1,18 +1,19 @@
 <script>
-	export let progect;
+	export let project;
 </script>
 
 <a
-	data-aos="flip-{progect.flip}"
+	data-aos="flip-{project.flip}"
 	data-aos-offset="170"
 	data-aos-duration="500"
-	href={progect.link}
+	href={project.link}
+  target="_blank"
 	class="m-2 flex max-w-md flex-col rounded-lg border border-gray-200 bg-info p-4 text-gray-500 shadow-md dark:border-gray-700 dark:text-gray-400 sm:p-6"
 >
 	<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-		{progect.title}
+		{project.title}
 	</h5>
-	{#each progect.description as desc}
+	{#each project.description as desc}
 		<p class="mb-3 font-normal leading-tight text-gray-700 ">
 			{desc}
 		</p>
@@ -38,19 +39,19 @@
 
 <!--
 <a
-	href={progect.link}
+	href={project.link}
 	class="m-2 flex max-w-md flex-col rounded-lg border border-gray-200 bg-gray-900 text-gray-500 shadow-md md:max-w-xl md:flex-row lg:max-w-2xl"
 >
 	<img
 		class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-		src={progect.img}
-		alt={progect.title}
+		src={project.img}
+		alt={project.title}
 	/>
 	<div class="p-4 sm:p-6  ">
 		<h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
-			{progect.title}
+			{project.title}
 		</h5>
-		{#each progect.description as desc}
+		{#each project.description as desc}
 			<p class="mb-3 font-normal leading-tight text-gray-400 ">
 				{desc}
 			</p>
