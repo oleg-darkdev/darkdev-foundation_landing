@@ -1,14 +1,20 @@
 <script>
-  import { ProjectCard, CoordinatorCard, StatCard, WorkshopImgDarkCard, WorkshopImgLightCard} from '../components/entities'
-  import {Faq, Footer, Header, GoalsList, Carousel, Gallery } from '../components/widgets'
+	import {
+		ProjectCard,
+		CoordinatorCard,
+		StatCard,
+		WorkshopImgDarkCard,
+		WorkshopImgLightCard
+	} from '../components/entities';
+	import { Faq, Footer, Header, GoalsList, Carousel, Gallery } from '../components/widgets';
 	import { faqList, projects, stats, noOrgsWorkshops, orgWorkshopsList } from '../data';
 </script>
 
 <Header />
-<section class="banner-bg md:hero lg:hero xl:hero " />
+<section class="banner-bg md:hero lg:hero xl:hero" />
 
-<section class="cards-wrapper flex flex min-h-screen flex-col items-center bg-gray-900 ">
-	<div id="projects" class="flex w-full flex-col items-center pb-12 pt-12 pr-1 pl-1">
+<section class="cards-wrapper flex flex min-h-screen flex-col items-center bg-gray-900">
+	<div id="projects" class="flex w-full flex-col items-center pb-12 pl-1 pr-1 pt-12">
 		<h2 class="mb-2 text-center text-5xl font-bold tracking-tight text-info">
 			Our social projects
 		</h2>
@@ -19,10 +25,10 @@
 	<Carousel {projects} />
 </section>
 
-<section class="w-12/12 z-20 mx-auto min-h-screen  bg-white px-6 pt-12 pb-12">
+<section class="w-12/12 z-20 mx-auto min-h-screen bg-white px-6 pb-12 pt-12">
 	<GoalsList />
 
-	<div class="flex flex-row flex-wrap  justify-center">
+	<div class="flex flex-row flex-wrap justify-center">
 		<a name="contact" />
 		{#each stats as stat}
 			<StatCard {stat} />
@@ -38,19 +44,20 @@
 	<CoordinatorCard />
 </section> -->
 
-<section class="bg-gray-800 py-12 px-6">
-	<div class="flex w-full flex-col lg:flex-row">
+<section class="bg-gray-800 px-6 py-12">
+  
+	<div id='offer' class="flex w-full flex-col lg:flex-row">
 		<!-- bg-base-300 -->
 		<div class="card rounded-box grid h-auto w-6/12 flex-grow place-items-center bg-neutral-100">
 			<div class="">
 				<div id="workshops-" class="mb-6 text-center">
 					<h2 class="text-base font-semibold uppercase tracking-wide text-gray-700">
-						предлагаемые темы обучающих воркшопов
+						Tematy warsztatów szkoleniowych
 					</h2>
 					<p
-						class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900  sm:text-4xl"
+						class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl"
 					>
-						Для организаций
+						Dla organizacji
 					</p>
 				</div>
 
@@ -65,10 +72,10 @@
 		<div class="card rounded-box grid h-auto w-6/12 flex-grow place-items-center bg-info">
 			<div id="workshops-" class="mb-6 text-center">
 				<h2 class="text-base font-semibold uppercase tracking-wide text-gray-700">
-					предлагаемые темы обучающих воркшопов
+					Tematy warsztatów szkoleniowych
 				</h2>
-				<p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900  sm:text-4xl">
-					Для молодёжи
+				<p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+					Dla młodzieży
 				</p>
 			</div>
 
@@ -86,7 +93,7 @@
 						lorem imosum
 					</h2> -->
 	<p
-		class="mb-4 text-center text-3xl font-extrabold leading-8 tracking-tight text-info  sm:text-4xl"
+		class="mb-4 text-center text-3xl font-extrabold leading-8 tracking-tight text-info sm:text-4xl"
 	>
 		Zdjęcia z naszych wydarzeń
 	</p>
@@ -94,7 +101,7 @@
 	<Gallery />
 </section>
 
-<section id="faq" class="flex min-h-screen flex-col items-center justify-center bg-gray-900  pb-12">
+<section id="faq" class="flex min-h-screen flex-col items-center justify-center bg-gray-900 pb-12">
 	<Faq {faqList} />
 </section>
 
