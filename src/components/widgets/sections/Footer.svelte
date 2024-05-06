@@ -1,7 +1,7 @@
 <footer class="footer footer-center bg-info lg:p-10 md:p-10 p-4 xl:p-10 ">
 	<div>
 		<img src="/images/logos/darkdev.svg" alt="" class="h-24" srcset="" />
-		<p class="text-gray-900">Copyright © 2023 - All right reserved</p>
+		<p class="text-gray-900">DarkDev Foundation - All right reserved</p>
 	</div>
 	<!-- <div>
 		<div class="grid grid-flow-col gap-4 text-gray-900">
