@@ -22,10 +22,10 @@
 				tabindex="0"
 				class="dropdown-content menu rounded-box menu-compact mt-3 w-64 bg-gray-900 p-2 shadow"
 			>
-				<li class="text-info"><a href="/#about">About</a></li>
-				<li class="text-info"><a href="/#projects">projects</a></li>
-				<li class="text-info"><a href="/#faq">F.A.Q</a></li>
-				<li class="text-info"><a href="/#contact">Contact</a></li>
+				<li class="text-info"><a href="#about">O Fundacji</a></li>
+				<li class="text-info"><a href="#projects">Projekty</a></li>
+				<li class="text-info"><a href="#faq">F.A.Q</a></li>
+				<li class="text-info"><a href="#contact">Kontakt</a></li>
 			</ul>
 		</div>
 		<img
@@ -40,30 +40,30 @@
 				<ul
 					class="order-1 mt-4 flex flex-col p-4 md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium"
 				>
-					<!-- <li>
-						<a
-							href="/"
-							class="block rounded bg-blue-700 py-2 pr-4 pl-3 text-white dark:bg-blue-600 md:border-0 md:bg-transparent md:p-0 md:text-blue-700 md:dark:bg-transparent md:dark:text-white"
-							>Home</a
-						>
-					</li> -->
 					<li>
 						<a
-							href="/#about"
+							href="#offer"
 							class="block rounded py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white"
-							>About</a
+							>Oferta BTB / BTC</a
 						>
 					</li>
 					<li>
 						<a
-							href="/#projects"
+							href="#about"
 							class="block rounded py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white"
-							>projects</a
+							>O Fundacji</a
 						>
 					</li>
 					<li>
 						<a
-							href="/#faq"
+							href="#projects"
+							class="block rounded py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white"
+							>Projekty</a
+						>
+					</li>
+					<li>
+						<a
+							href="#faq"
 							class="block rounded py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white"
 							>FAQ</a
 						>
@@ -72,7 +72,7 @@
 						<a
 							href="#contact"
 							class="block rounded py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white"
-							>Contact</a
+							>Kontakt</a
 						>
 					</li>
 				</ul>
