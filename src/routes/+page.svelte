@@ -45,13 +45,13 @@
 </section> -->
 
 <section class="bg-gray-800 px-6 py-12">
-  
+
 	<div id='offer' class="flex w-full flex-col lg:flex-row">
 		<!-- bg-base-300 -->
-		<div class="card rounded-box grid h-auto w-6/12 flex-grow place-items-center bg-neutral-100">
+		<div class="card rounded-box grid h-auto lg:w-6/12 md:w-6/12 w-full flex-grow place-items-center bg-neutral-100">
 			<div class="">
 				<div id="workshops-" class="mb-6 text-center">
-					<h2 class="text-base font-semibold uppercase tracking-wide text-gray-700">
+					<h2 class="text-base pt-6 font-semibold uppercase tracking-wide text-gray-700">
 						Tematy warsztatów szkoleniowych
 					</h2>
 					<p
@@ -69,8 +69,8 @@
 			</div>
 		</div>
 		<div class="divider lg:divider-horizontal" />
-		<div class="card rounded-box grid h-auto w-6/12 flex-grow place-items-center bg-info">
-			<div id="workshops-" class="mb-6 text-center">
+		<div class="card rounded-box grid h-auto lg:w-6/12 md:w-6/12 w-full flex-grow place-items-center bg-info">
+			<div id="workshops-" class="mb-6 pt-6 text-center">
 				<h2 class="text-base font-semibold uppercase tracking-wide text-gray-700">
 					Tematy warsztatów szkoleniowych
 				</h2>
@@ -101,7 +101,7 @@
 	<Gallery />
 </section>
 
-<section id="faq" class="flex min-h-screen flex-col items-center justify-center bg-gray-900 pb-12">
+<section id="faq" class="flex lg:min-h-screen flex-col items-center justify-center bg-gray-900 lg:pb-12 md:pb-12 pb-10">
 	<Faq {faqList} />
 </section>
 
