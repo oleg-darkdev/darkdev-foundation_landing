@@ -8,30 +8,30 @@
 </div>
 <div class="my-12 flex flex-wrap dark:text-white">
 	<div class="flex w-full flex-row p-8 md:w-1/2 lg:w-1/3">
-		<img src="/images/goals/workshos.svg" alt="Apps goal img" class="h-24 w-14" />
+		<img src="/images/goals/workshos.svg" alt="Apps goal img" class="h-24 w-16" />
 
 		<div class="ml-2">
-			<div class="md-4 text-xl text-gray-100">Warsztaty, mitapy i konferencje</div>
+			<div class="md-4 text-xl text-gray-700">Warsztaty, mitapy i konferencje</div>
 			<p class="text-md leading-loose text-gray-400">
 				Organizowanie i prowadzenie warsztatów szkoleniowych oraz konferencji.
 			</p>
 		</div>
 	</div>
 	<div class="flex w-full flex-row rounded-xl bg-gray-800 p-8 md:w-1/2 lg:w-1/3 lg:border-r">
-		<img src="/images/goals/workshos.svg" alt="Apps goal img" class="h-24 w-14" />
+		<!-- <img src="/images/goals/it.svg" alt="Apps goal img" class="h-24 w-16" /> -->
 
 		<div class="ml-2">
-			<div class="md-4 text-xl text-gray-100">Pomoc dla NGO z IT</div>
+			<div class="md-4 text-xl text-gray-200">Pomoc dla NGO z IT</div>
 			<p class="text-md leading-loose text-gray-400">
 				Pomoc dla organizacji pozarządowych i społecznych inicjatyw w zakresie IT.
 			</p>
 		</div>
 	</div>
 	<div class="flex w-full flex-row p-8 md:w-1/2 lg:w-1/3 lg:border-r-0">
-		<img src="/images/goals/workshos.svg" alt="Apps goal img" class="h-24 w-14" />
+		<img src="/images/goals/sport.svg" alt="Apps goal img" class="h-24 w-16" />
 
 		<div class="ml-2">
-			<div class="md-4 text-xl text-gray-100">Wydarzenia sportowe</div>
+			<div class="md-4 text-xl text-gray-700">Wydarzenia sportowe</div>
 			<p class="text-md leading-loose text-gray-400">
 				Organizowanie i prowadzenie lokalnych turniejów szachowych, warcabych, piłkarskich,
 				kolarstwa.
@@ -39,20 +39,20 @@
 		</div>
 	</div>
 	<div class="lg:-0 flex w-full flex-row rounded-xl bg-gray-800 p-8 md:w-1/2 lg:w-1/3 lg:border-r">
-		<img src="/images/goals/workshos.svg" alt="Apps goal img" class="h-24 w-14" />
+		<!-- <img src="/images/goals/apps.svg" alt="Apps goal img" class="h-24 w-16" /> -->
 
 		<div class="ml-2">
-			<div class="md-4 text-xl text-gray-100">Edukacyjne gry planszowe</div>
+			<div class="md-4 text-xl text-gray-200">Edukacyjne gry planszowe</div>
 			<p class="text-md leading-loose text-gray-400">
 				Popularyzowanie grywalizacji w edukacji z wykorzystaniem edukacyjnych gier planszowych.
 			</p>
 		</div>
 	</div>
 	<div class="md:-0 lg:-0 flex w-full flex-row p-8 md:w-1/2 lg:w-1/3">
-		<img src="/images/goals/workshos.svg" alt="Apps goal img" class="h-24 w-14" />
+		<img src="/images/goals/local.svg" alt="Apps goal img" class="h-24 w-16" />
 
 		<div class="ml-2">
-			<div class="md-4 text-xl text-gray-100">Działania lokalne</div>
+			<div class="md-4 text-xl text-gray-700">Działania lokalne</div>
 			<p class="text-md leading-loose text-gray-400">
 				Tworzenie i organizowanie lokalnych inicjatyw i przestrzeń dla pozytywnych zmian w
 				społeczeństwie.
@@ -60,10 +60,10 @@
 		</div>
 	</div>
 	<div class="flex w-full flex-row rounded-xl bg-gray-800 p-8 md:w-1/2 lg:w-1/3">
-		<img src="/images/goals/local.svg" alt="Local goal img" class="h-24 w-14" />
+		<!-- <img src="/images/goals/app.svg" alt="Local goal img" class="h-24 w-16" /> -->
 
 		<div class="ml-2">
-			<div class="md-4 text-xl text-gray-100">Aplikacje i strony internetowe</div>
+			<div class="md-4 text-xl text-gray-200">Aplikacje i strony internetowe</div>
 			<p class="text-md leading-loose text-gray-400">
 				Tworzenie i publikowanie aplikacji webowych oraz stron internetowych z otwartym kodem
 				źródłowym.
