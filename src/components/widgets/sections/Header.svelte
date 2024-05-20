@@ -22,6 +22,7 @@
 				tabindex="0"
 				class="dropdown-content menu rounded-box menu-compact mt-3 w-64 bg-gray-900 p-2 shadow"
 			>
+				<li class="text-info"><a href="#offer">Oferta BTB / BTC</a></li>
 				<li class="text-info"><a href="#about">O Fundacji</a></li>
 				<li class="text-info"><a href="#projects">Projekty</a></li>
 				<li class="text-info"><a href="#faq">F.A.Q</a></li>
