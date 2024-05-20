@@ -11,8 +11,8 @@
     </div>
   </div>
 	<figcaption>
-		<h3>{workshop.title}</h3>
-		<p>{workshop.desc}</p>
+		<h3 class='text-xl'>{workshop.title}</h3>
+		<p class='font-hairline'>{workshop.desc}</p>
 	</figcaption>
 	<div class="hover"><i class="ion-android-open" /></div>
 	<a href={workshop.link} />

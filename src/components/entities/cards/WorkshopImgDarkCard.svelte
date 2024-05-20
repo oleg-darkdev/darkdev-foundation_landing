@@ -3,7 +3,7 @@
 </script>
 
 <figure class="snip1529 rounded-xl text-neutral-100 transition duration-300 ease-in-out delay-150 transform hover:scale-110 hover:z-10">
-	<img src='/images/workshops/{workshop.img}' alt="img {workshop.title}" />
+	<img src='/images/workshops/{workshop.img}' class='bg-neutral-100' alt="img {workshop.title}" />
 	<div class="date">
     <!-- <span class="day">28</span><span class="month">Apr</span> -->
     <div class="">
@@ -11,8 +11,8 @@
     </div>
   </div>
 	<figcaption>
-		<h3>{workshop.title}</h3>
-		<p>{workshop.desc}</p>
+		<h3 class='text-xl'>{workshop.title}</h3>
+		<p class='font-hairline'>{workshop.desc}</p>
 	</figcaption>
 	<div class="hover"><i class="ion-android-open" /></div>
 	<a href={workshop.link} />
