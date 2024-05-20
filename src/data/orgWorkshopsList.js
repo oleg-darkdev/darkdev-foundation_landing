@@ -16,8 +16,8 @@ const orgWorkshopsList = [
 	{
 		id: 0,
 		img: 'it-del.svg',
-		title: 'Metody estymacji i planowanie zadań',
-		desc: 'Skolenie z wykorzystaniem najprostszych technik i oprogramowania do szacowania i planowania zadań.',
+		title: 'Estymacja i szacowanie zadań',
+		desc: 'Wykorzystanie najprostszych technik i oprogramowania do szacowania i planowania zadań.',
 		link: '/'
 	},
 	{
